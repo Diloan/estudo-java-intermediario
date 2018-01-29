@@ -40,7 +40,42 @@ public class ExemploPrintf {
 		System.out.println();
 
 		System.out.printf("%015d", valor); // Determinando a quantidade de dígitos, e completando com zero
+		
+		System.out.println();
 
+		System.out.printf("%,d", valor); // Separando miilhares com virgula
+		
+		System.err.println();
+		
+		int valor2 = - 12345678;
+		System.out.printf("% d", valor2); // Só imprime o sinal se o númnero for positivo
+		System.out.println();
+		System.out.printf("% d", valor);
+		System.out.println();
+		
+		System.out.printf("%.3f", pontoFlutuante); // Quantidades dde casas decimais
+		System.out.println();
+		
+		System.out.printf("R$%10.2f", pontoFlutuante); // Saida de número monetário, determinba a quantidade dígito
+		System.out.println();
+		
+		
+		testeMaisCompleto();
+		
+	}
+	
+		private static void testeMaisCompleto(){
+			
+			double[] precos = {1000, 123.54, 7843.567, 1, 4.56789};
+			
+			for(int i = 0; i < precos.length; i++){
+				System.out.printf("%s %02d: total de R$%,10.2f%n", "Item", i + 1, precos[i]);
+			}
+			
+			//Java.util.Formater classe que formata números, faz a mesma coisa que o printf
+			
+		}
+		
 	}
 
-}
+
