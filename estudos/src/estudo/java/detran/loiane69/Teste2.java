@@ -1,6 +1,5 @@
 package estudo.java.detran.loiane69;
 
-import estudo.java.detran.loiane68.MinhaThreadRunnable;
 
 public class Teste2 {
 
