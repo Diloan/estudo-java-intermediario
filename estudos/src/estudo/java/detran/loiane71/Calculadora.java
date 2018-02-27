@@ -1,7 +1,5 @@
 package estudo.java.detran.loiane71;
 
-import javax.swing.plaf.basic.BasicTreeUI.TreeHomeAction;
-
 public class Calculadora {
 
 	private int soma;

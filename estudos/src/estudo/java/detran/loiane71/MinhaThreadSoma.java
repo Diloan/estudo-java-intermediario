@@ -26,6 +26,4 @@ public class MinhaThreadSoma implements Runnable{
 		System.out.println(this.nome + " terminada");
 	}
 	
-	
-	
 }

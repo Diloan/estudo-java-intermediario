@@ -9,5 +9,4 @@ public class Teste {
 		MinhaThreadSoma t2 = new MinhaThreadSoma("#2", array);
 		
 	}
-
 }
