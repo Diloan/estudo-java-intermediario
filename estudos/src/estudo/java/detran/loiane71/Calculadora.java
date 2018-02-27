@@ -20,7 +20,6 @@ public class Calculadora {
 				e.printStackTrace();
 			}
 		}
-
 		return soma;
 	}
 }
