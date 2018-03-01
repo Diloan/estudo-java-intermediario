@@ -16,7 +16,7 @@ public class Teste {
 			e.printStackTrace();
 		}
 		
-		System.out.println("Suspendendo a Thread #2");
+		System.out.println("Pausando a Thread #2");
 		t2.suspend();
 		
 		System.out.println("Resumindo a Thread #1");

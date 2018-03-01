@@ -32,11 +32,11 @@ public class MinhaThread implements Runnable {
 				}
 			}
 		} catch (InterruptedException e) {
-			// TODO Auto-generated catch block
+			
 			e.printStackTrace();
 		}
 
-		System.out.println("Thread " + this.nome + " terminar.");
+		System.out.println("Thread " + this.nome + " terminada");
 	}
 	
 	void suspend(){
